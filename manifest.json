@@ -1,0 +1,14 @@
+{
+	"lang": "ru",
+	"name": "",
+	"description": "",
+	"icons": [{
+		"src": "/assets/svg/icon.svg",
+		"sizes": "32x32",
+		"type": "image/svg"
+	}],
+	"start_url": "/",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#090f1e"
+}

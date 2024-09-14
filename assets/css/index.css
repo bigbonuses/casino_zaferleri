@@ -1,0 +1,92 @@
+@import './vendors/index.css';
+@import './components/index.css';
+@import './pages/index.css';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #090f1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text{
+    color: var(--white);
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1420px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.hrefs__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 100px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 40px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.hrefs__link:hover{
+    background-color: #1618a5;
+    color: var(--white);
+}
+
+.hrefs__link:last-child{
+    margin-top: 30px;
+}
+
+.profile img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hrefs{
+    margin-top: 60px;
+}
+
+.profile__name{
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(max-width: 768px){
+    .hrefs__link{
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+        border-radius: 35px;
+    }
+}
